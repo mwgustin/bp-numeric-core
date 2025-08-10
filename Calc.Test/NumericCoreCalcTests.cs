@@ -37,16 +37,16 @@ public class NumericCoreCalcTests
   [Fact]
   public void WineCellarTest()
   {
-    // M|CC|X|III (wine cellar)
+    // M|CC|XI|II (wine cellar)
     //arrange
-    int[][] x = [[1000, 200, 10, 3]];
+    int[][] x = [[1000, 200, 11, 2]];
 
     var sut = new NumericCoreCalc();
 
     //act
     var result = sut.Calculate(x);
     //assert
-    Assert.Equal(47, result);
+    Assert.Equal(53, result);
   }
 
   [Fact]
